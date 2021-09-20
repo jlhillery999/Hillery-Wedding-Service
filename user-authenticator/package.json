@@ -1,0 +1,20 @@
+{
+  "name": "user-authenticator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/datastore": "^6.5.0",
+    "appengine": "^0.3.0",
+    "cors": "^2.8.5",
+    "datastore": "^1.8.2",
+    "express": "^4.17.1"
+  }
+}
